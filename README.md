@@ -11,8 +11,15 @@ The dataset used was the APNEA-ECG database, which can be found [here.](https://
 - 60s Segments with Nan or Inf values were discarded.
 
 The general distribution of Apnea and Non-Apnea events:
+
 ![data-dist](/plots/apnea_event_distribution.png)
 
 # Model
 
-The model used was a simple CNN model using Conv2D and MaxPool layers, followed by a Fully connected classification head. This was implemented using the keras API of TensorFlow
+The model used was a simple CNN model using Conv2D and MaxPool layers, followed by a Fully connected classification head. This was implemented using the keras API of TensorFlow.
+
+# Results
+
+The results of this approach are reported here:
+
+![results](/plots/results.png)
